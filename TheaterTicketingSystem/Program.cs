@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using DevExpress.LookAndFeel;
 using DevExpress.Skins;
 using DevExpress.UserSkins;
+using TheaterTicketingSystem.Forms;
 
 namespace TheaterTicketingSystem
 {
@@ -18,7 +19,7 @@ namespace TheaterTicketingSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new LoginForm());
         }
     }
 }
